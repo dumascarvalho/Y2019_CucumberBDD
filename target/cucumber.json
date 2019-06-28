@@ -1,0 +1,64 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Somar",
+        "description": "",
+        "id": "calc;somar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "que eu escolha somar",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "eu preencho o primeiro número com o valor \u00271\u0027",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "eu preencho o segundo número com o valor \u00271\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "eu devo ver o resultado como \u00272\u0027",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calc",
+    "description": "Como usuario entrar com 2 valores\r\nCom objetivo de obter um resultado",
+    "id": "calc",
+    "keyword": "Feature",
+    "uri": "Calculadora.feature"
+  }
+]
